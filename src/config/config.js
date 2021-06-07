@@ -1,6 +1,6 @@
 // Define a string de conexão com o banco de dados
 require('dotenv/config');
- 
+
 module.exports = {
     database: {
         host: process.env.DB_HOST,
